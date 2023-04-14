@@ -12,7 +12,7 @@ import (
 func FindUser(response http.ResponseWriter, request *http.Request) {
 	ids, ok := request.URL.Query()["id"]
 	if !ok || len(ids) < 1 {
-		responseWithError(response, http.StatusBadRequest, "Url Param 'id' is missing")
+		responseWithError(response, http.StatusBadRequest, "Url Param 'id' is missing!!!")
 		return
 	}
 	user, err := models.FindUser(ids[0])
