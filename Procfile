@@ -1,1 +1,1 @@
-web: /bin/golang-rest-api
+web: golang-rest-api
