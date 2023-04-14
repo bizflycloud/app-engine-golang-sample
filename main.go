@@ -19,6 +19,7 @@ func main() {
 	router.HandleFunc("/api/v1/user/delete", userapi.Delete).Methods("DELETE")
 
 	fmt.Printf("Golang Rest API Is Running On Port: 5000")
+	fmt.Printf("Get all user using this path /api/v1/user/getall")
 
 	err := http.ListenAndServe(":5000", router)
 
