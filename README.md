@@ -2,7 +2,7 @@
 
 Đây là repo code mẫu cho một ứng dụng Golang triển khai trên nền tảng BizflyCloud App Engine
 
-**Lưu ý: Bạn cần thêm câu lệnh khởi chạy ứng dụng trong Procfile để ứng dụng Golang có thể kh
+**Lưu ý: Bạn cần thêm câu lệnh khởi chạy ứng dụng trong Procfile để ứng dụng Golang có thể khởi động** 
 
 Tham khảo thêm cách thức triển khai ứng dụng Golang tại đây
 
