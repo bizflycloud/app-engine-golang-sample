@@ -2,6 +2,8 @@
 
 Đây là repo code mẫu cho một ứng dụng Golang triển khai trên nền tảng BizflyCloud App Engine
 
+**Lưu ý: Bạn cần thêm câu lệnh khởi chạy ứng dụng trong Procfile để ứng dụng Golang có thể kh
+
 Tham khảo thêm cách thức triển khai ứng dụng Golang tại đây
 
 https://docs.bizflycloud.vn/app_engine/deploy/go
